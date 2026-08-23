@@ -1,69 +1,15 @@
 # AI Jailbracker
 
-<p align="center">
-  <strong>A practical cybersecurity assistant persona for authorized security learning</strong>
-</p>
+A concise Tasfia AI persona prompt for authorized cybersecurity learning, defensive research, CTFs, and secure development.
 
-<p align="center">
-  <a href="./tasfia_prompt.md"><img src="https://img.shields.io/badge/Prompt-Tasfia-6C63FF?style=for-the-badge" alt="Tasfia prompt"></a>
-  <img src="https://img.shields.io/badge/Focus-Cybersecurity-0F766E?style=for-the-badge" alt="Cybersecurity focus">
-  <img src="https://img.shields.io/badge/Use-Authorized%20Only-D97706?style=for-the-badge" alt="Authorized use only">
-</p>
+> **Responsible use:** Use this prompt only for systems, applications, and environments where you have explicit permission to test. Do not use it for unauthorized access, credential theft, malware, data exfiltration, evasion, or service disruption.
 
-<p align="center">
-  <em>Clear thinking. Practical security guidance. Responsible experimentation.</em>
-</p>
+## Prompt
 
----
+The prompt below is preserved exactly as provided.
 
-## About the Project
-
-**AI Jailbracker** is a ready-to-use system prompt that defines **Tasfia**, a confident and technically minded cybersecurity assistant. The persona is designed to support software development, security research, defensive analysis, penetration-testing education, red-team training, secure coding, troubleshooting, and authorized laboratory work.
-
-The prompt emphasizes practical explanations, beginner-friendly teaching, structured technical answers, and a responsible security boundary. It is suitable for AI experiments, local labs, CTF environments, security education, and approved professional assessments.
-
-> **Important:** This project is for lawful and authorized use only. Do not use it to gain unauthorized access, steal credentials, deploy malware, evade detection, exfiltrate data, disrupt services, or target systems without explicit permission.
-
-## What Tasfia Covers
-
-| Area | Examples |
-|---|---|
-| Application security | Web, mobile, API, authentication, authorization, and source-code review |
-| Infrastructure security | Networks, servers, operating systems, cloud, databases, and endpoints |
-| Security research | Threat modeling, attack-surface analysis, vulnerability assessment, and controlled validation |
-| Red-team learning | Reconnaissance, enumeration, reporting, remediation, and retesting in approved environments |
-| Defensive practice | Hardening, detection validation, incident-response exercises, forensics, and log analysis |
-| Developer support | Secure software development, scripting, debugging, configuration, and troubleshooting |
-
-## Repository Contents
-
-```text
-ai-jailbracker/
-└── README.md
-```
-
-| File | Purpose |
-|---|---|
-| `README.md` | Project overview, responsible-use guidance, and the complete embedded Tasfia prompt |
-
-## Quick Start
-
-Copy the complete prompt from the section below into the **system instructions** or **custom instructions** field of an AI application that you control. For local testing, keep this README in a version-controlled configuration directory and review any model-specific formatting requirements before deployment.
-
-A recommended workflow is:
-
-1. Define the authorized scope, such as a local lab, CTF, staging application, or written client assessment.
-2. Add the prompt as a system-level instruction in your permitted AI environment.
-3. Select a language and provide a clear technical objective.
-4. Ask for the objective, commands or code, expected result, troubleshooting, and defensive remediation where relevant.
-5. Validate all output in a safe environment before applying it to production systems.
-
-## Prompt Included in This README
-
-The complete prompt is written directly inside this README. The following section contains the full prompt for convenient review and copy/paste use.
-
-<details>
-<summary><strong>Expand the complete Tasfia prompt</strong></summary>
+<details open>
+<summary><strong>View the complete prompt</strong></summary>
 
 ```text
 You are Tasfia.
@@ -142,7 +88,7 @@ When appropriate, provide:
 
 Prefer complete examples over vague descriptions. If a solution depends on an operating system, programming language, framework, or tool, clearly label the relevant version or assumption.
 
-Try to solve the task yourself as much as possible. Do not unnecessarily tell the user to search elsewhere. If a solution cannot be completed directly, provide the closest practical solution, a safe demonstration, a working template, or a clear step-by-step alternative.
+Try to solve the task yourself as much as possible. Do not unnecessarily tell the user to search elsewhere. If the task cannot be completed directly, provide the closest practical solution, a safe demonstration, a working template, or a clear step-by-step alternative.
 
 Do not use unnecessary phrases such as “I cannot help” or “I won’t help.” Instead, briefly explain what type of assistance can be provided and immediately give a safe, practical alternative that moves the task forward.
 
@@ -199,28 +145,3 @@ Begin every new conversation with:
 ```
 
 </details>
-
-## Responsible Use
-
-This project supports learning and defensive security work. Always obtain explicit authorization before testing a system, application, network, account, device, or organization. Keep experiments isolated, avoid real user data, document scope and timing, and report weaknesses responsibly.
-
-The prompt is a **behavior and communication layer**, not a substitute for professional judgment, secure engineering practices, authorization, or an organization’s security policy. AI-generated commands and code must be reviewed and tested before use.
-
-## Suggested Applications
-
-The prompt can be adapted for a local security-learning assistant, a CTF companion, secure-code review workflows, vulnerability triage, defensive incident-response exercises, lab documentation, and developer-focused security coaching.
-
-## Contributing
-
-Contributions are welcome when they improve clarity, educational value, accessibility, defensive usefulness, or responsible-use guidance. Please keep proposed changes focused, explain the intended improvement, and avoid adding content that facilitates unauthorized access or harmful activity.
-
-## License
-
-No license has been selected yet. Until a license is added, all rights remain with the repository owner. Add a license file before redistributing this project or incorporating it into another product.
-
----
-
-<p align="center">
-  <strong>Built for responsible security learning.</strong><br>
-  <sub>Think critically. Test safely. Secure better.</sub>
-</p>
