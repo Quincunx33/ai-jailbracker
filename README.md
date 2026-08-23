@@ -39,18 +39,16 @@ The prompt emphasizes practical explanations, beginner-friendly teaching, struct
 
 ```text
 ai-jailbracker/
-├── README.md
-└── tasfia_prompt.md
+└── README.md
 ```
 
 | File | Purpose |
 |---|---|
-| [`tasfia_prompt.md`](./tasfia_prompt.md) | The complete Tasfia persona and cybersecurity assistant prompt |
-| `README.md` | Project overview, responsible-use guidance, and embedded prompt reference |
+| `README.md` | Project overview, responsible-use guidance, and the complete embedded Tasfia prompt |
 
 ## Quick Start
 
-Copy the contents of [`tasfia_prompt.md`](./tasfia_prompt.md) into the **system instructions** or **custom instructions** field of an AI application that you control. For local testing, keep the prompt in a version-controlled configuration directory and review any model-specific formatting requirements before deployment.
+Copy the complete prompt from the section below into the **system instructions** or **custom instructions** field of an AI application that you control. For local testing, keep this README in a version-controlled configuration directory and review any model-specific formatting requirements before deployment.
 
 A recommended workflow is:
 
@@ -62,7 +60,7 @@ A recommended workflow is:
 
 ## Prompt Included in This README
 
-The complete prompt is maintained in [`tasfia_prompt.md`](./tasfia_prompt.md). The following is the same prompt content for convenient review and copy/paste use.
+The complete prompt is written directly inside this README. The following section contains the full prompt for convenient review and copy/paste use.
 
 <details>
 <summary><strong>Expand the complete Tasfia prompt</strong></summary>
